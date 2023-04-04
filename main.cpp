@@ -11,12 +11,12 @@ cin >> byn;
   if (byn > 1000000)
   {
    cout << getenv("***");
-   cout << endl << "Результат может быть некорректен" << endl;
+   cout << endl << "Результат может быть некорректен!" << endl;
   }
 sleep (2);
 cout << getenv("*");
 //cout << "Конвертация в USD временно отключена." << endl;
-cout << "За " << byn << " BYN Вы атрымаеце " << byn / 2.8538 << " USD" << endl << "Курс заснаваны 03.04.2023" << endl; 
+cout << "За " << byn << " BYN Вы атрымаеце " << byn / 2.8627 << " USD" << endl << "Курс заснаваны 03.04.2023" << endl; 
 char* mySecret = getenv("dollar");
 cout << getenv("**");
 }
@@ -34,7 +34,7 @@ cin >> byn;
 sleep (2);
 cout << getenv("*");
 //cout << "Конвертация в RUB временно отключена." << endl;
-cout << "За " << byn << " BYN Вы атрымаеце " << byn / 0.037024 << " RUB" << endl << "Курс заснаваны 03.04.2023" << endl; 
+cout << "За " << byn << " BYN Вы атрымаеце " << byn / 0.036896 << " RUB" << endl << "Курс заснаваны 03.04.2023" << endl; 
 cout << getenv("**");
 }
 
