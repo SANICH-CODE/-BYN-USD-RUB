@@ -15,8 +15,25 @@ cin >> byn;
   }
 sleep (2);
 cout << getenv("*");
-cout << "Конвертация в USD временно отключена." << endl;
-//cout << "За " << byn << " BYN Вы атрымаеце " << byn / 2.8627 << " USD" << endl << "Курс заснаваны 04.04.2023" << endl; 
+//cout << "Конвертация в USD временно отключена." << endl;
+cout << "За " << byn << " BYN Вы атрымаеце " << byn / 2.8627 << " USD" << endl << "Курс заснаваны 04.04.2023" << endl; 
+char* mySecret = getenv("dollar");
+cout << getenv("**");
+}
+
+void euro (){
+int byn;
+cout << "Удакладніце колькасць BYN для перакладу ў EUR" << endl << "Колькасць BYN: ";
+cin >> byn;
+  if (byn > 1000000)
+  {
+   cout << getenv("***");
+   cout << endl << "Результат может быть некорректен!" << endl;
+  }
+sleep (2);
+cout << getenv("*");
+//cout << "Конвертация в EURO временно отключена." << endl;
+cout << "За " << byn << " BYN Вы атрымаеце " << byn / 3.1066 << " EUR" << endl << "Курс заснаваны 04.04.2023" << endl; 
 char* mySecret = getenv("dollar");
 cout << getenv("**");
 }
@@ -33,15 +50,15 @@ cin >> byn;
   }
 sleep (2);
 cout << getenv("*");
-cout << "Конвертация в RUB временно отключена." << endl;
-//cout << "За " << byn << " BYN Вы атрымаеце " << byn / 0.036896 << " RUB" << endl << "Курс заснаваны 04.04.2023" << endl; 
+//cout << "Конвертация в RUB временно отключена." << endl;
+cout << "За " << byn << " BYN Вы атрымаеце " << byn / 0.036896 << " RUB" << endl << "Курс заснаваны 04.04.2023" << endl; 
 cout << getenv("**");
 }
 
 int main() {
   int byn;
   char val1;
-  cout << "Здравствуйте, выберіце валюту (usd=u/rub=r)\n";
+  cout << "Здравствуйте, выберіце валюту (usd=u/rub=r/euro=e)\n";
   cout << "Валюта: ";
   cin >> val1;
 
@@ -52,6 +69,10 @@ int main() {
     if (val1 == 'r')
       {
         rub();
+      }
+    if (val1 == 'e')
+      {
+        euro();
       }
 }
 //  //
