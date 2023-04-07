@@ -5,7 +5,7 @@
 using namespace std;
 
 void usd (){
-int byn;
+double byn;
 cout << "Удакладніце колькасць BYN для перакладу ў USD" << endl << "Колькасць BYN: ";
 cin >> byn;
   if (byn > 1000000)
@@ -22,7 +22,7 @@ cout << getenv("**");
 }
 
 void cny (){
-int byn;
+double byn;
 cout << "Удакладніце колькасць BYN для перакладу ў CNY (кітайскій юань)" << endl << "Колькасць BYN: ";
 cin >> byn;
  if (byn > 1000000)
@@ -39,7 +39,7 @@ cout << getenv("**");
 }
 
 void euro (){
-int byn;
+double byn;
 cout << "Удакладніце колькасць BYN для перакладу ў EUR" << endl << "Колькасць BYN: ";
 cin >> byn;
   if (byn > 1000000)
@@ -56,7 +56,8 @@ cout << getenv("**");
 }
 
 void rub (){
-int byn;
+	
+double byn;
 char* mySecret = getenv("rub");
 cout << "Удакладніце колькасць BYN для перакладу ў RUB" << endl << "Колькасць BYN: ";
 cin >> byn;
