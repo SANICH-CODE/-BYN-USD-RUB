@@ -13,21 +13,21 @@ void stop() {
 }
 
 void usd (){
+
 float usd_r = 2.9333 ; 
 double byn;
 cout << "Удакладніце колькасць BYN для перакладу ў USD" << endl << "Колькасць BYN: ";
 cin >> byn;
   if (byn > 1000000)
   {
-   cout << getenv("***");
+   
    cout << endl << "Результат может быть некорректен!" << endl;
   }
 sleep (2);
-cout << getenv("*");
+
 //cout << endl << "Конвертация в USD временно отключена." << endl << "Код ошибки: " << getenv("error") << endl << "" << endl;
-cout << endl << "За " << byn << " BYN Вы атрымаеце " << byn / usd_r << " USD" << endl << "Курс заснаваны 19.05.2023" << endl << endl; 
-char* mySecret = getenv("dollar");
-cout << getenv("**");
+cout << endl << "За " << byn << " BYN Вы атрымаеце " << byn / usd_r << " USD" << endl << "Курс заснаваны 19.05.2023" << endl << endl;
+
 }
 
 void cny (){
@@ -42,10 +42,9 @@ double byn;
   }
 sleep (2);
 cout << getenv("*");
-cout << endl << "Конвертация в CNY временно отключена." << endl << "Код ошибки: " << getenv("error") << endl << "" << endl;
+cout << endl << "Конвертация в CNY временно отключена." << endl << "Код ошибки: " << endl << "" << endl;
 //cout << endl << "За " << byn << " BYN Вы атрымаеце " << byn / 0.42621 << " CNY" << endl << "Курс заснаваны 07.04.2023" << endl << endl; 
-char* mySecret = getenv("dollar");
-cout << getenv("**");
+
 }
 
 void euro (){
@@ -55,37 +54,36 @@ cout << "Удакладніце колькасць BYN для перакладу
 cin >> byn;
   if (byn > 1000000)
   {
-   cout << getenv("***");
+ 
    cout << endl << "Результат может быть некорректен!" << endl;
   }
 sleep (2);
-cout << getenv("*");
+
 //cout << endl << "Конвертация в EUR временно отключена." << endl << "Код ошибки: " << getenv("error") << endl << "" << endl;
 cout << endl << "За " << byn << " BYN Вы атрымаеце " << byn / eur_r << " EUR" << endl << "Курс заснаваны 19.05.2023" << endl << endl; 
-char* mySecret = getenv("dollar");
-cout << getenv("**");
+
 }
 
 void rub (){
 float rub_r = 0.0270 ; 
 double byn;
-char* mySecret = getenv("rub");
+
 cout << "Удакладніце колькасць BYN для перакладу ў RUB" << endl << "Колькасць BYN: ";
 cin >> byn;
   if (byn > 1000000)
   {
-   cout << getenv("***");
+
    cout << endl << "Результат может быть некорректен" << endl;
   }
 sleep (2);
-cout << getenv("*");
+
 //cout << endl << "Конвертация в RUB временно отключена." << endl << "Код ошибки: " << getenv("off") << endl << "" << endl;
 cout << endl << "За " << byn << " BYN Вы атрымаеце " << byn / rub_r << " RUB" << endl << "Курс заснаваны 19.05.2023" << endl << endl ; 
-cout << getenv("**");
+
 }
 
 int main() {
-  char* mySecret = getenv("rub");
+
 
   int byn;
   char val1;
