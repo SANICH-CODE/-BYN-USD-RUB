@@ -1,6 +1,6 @@
-Version: BETA 2.0
+Version: PUBLIC 2.0
 
-Last update: 19.045.2023 17:57
+Last update: 19.05.2023 17:57
 
 
 

@@ -14,7 +14,7 @@ void stop() {
 
 void usd (){
 
-float usd_r = 2.9333 ; 
+float usd_r = 2.9050 ; 
 double byn;
 cout << "Удакладніце колькасць BYN для перакладу ў USD" << endl << "Колькасць BYN: ";
 cin >> byn;
@@ -26,7 +26,7 @@ cin >> byn;
 sleep (2);
 
 //cout << endl << "Конвертация в USD временно отключена." << endl << "Код ошибки: " << getenv("error") << endl << "" << endl;
-cout << endl << "За " << byn << " BYN Вы атрымаеце " << byn / usd_r << " USD" << endl << "Курс заснаваны 19.05.2023" << endl << endl;
+cout << endl << "За " << byn << " BYN Вы атрымаеце " << byn / usd_r << " USD" << endl << "Курс заснаваны 22.05.2023" << endl << endl;
 
 }
 
@@ -48,7 +48,7 @@ cout << endl << "Конвертация в CNY временно отключен
 }
 
 void euro (){
-float eur_r = 3.1360 ; 
+float eur_r = 3.1390 ; 
 double byn;
 cout << "Удакладніце колькасць BYN для перакладу ў EUR" << endl << "Колькасць BYN: ";
 cin >> byn;
@@ -60,7 +60,7 @@ cin >> byn;
 sleep (2);
 
 //cout << endl << "Конвертация в EUR временно отключена." << endl << "Код ошибки: " << getenv("error") << endl << "" << endl;
-cout << endl << "За " << byn << " BYN Вы атрымаеце " << byn / eur_r << " EUR" << endl << "Курс заснаваны 19.05.2023" << endl << endl; 
+cout << endl << "За " << byn << " BYN Вы атрымаеце " << byn / eur_r << " EUR" << endl << "Курс заснаваны 22.05.2023" << endl << endl; 
 
 }
 
@@ -78,7 +78,7 @@ cin >> byn;
 sleep (2);
 
 //cout << endl << "Конвертация в RUB временно отключена." << endl << "Код ошибки: " << getenv("off") << endl << "" << endl;
-cout << endl << "За " << byn << " BYN Вы атрымаеце " << byn / rub_r << " RUB" << endl << "Курс заснаваны 19.05.2023" << endl << endl ; 
+cout << endl << "За " << byn << " BYN Вы атрымаеце " << byn / rub_r << " RUB" << endl << "Курс заснаваны 22.05.2023" << endl << endl ; 
 
 }
 
