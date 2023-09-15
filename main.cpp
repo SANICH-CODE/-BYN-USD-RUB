@@ -1,4 +1,4 @@
-
+#include <algorithm>
 #include <iostream>
 #include <stdlib.h>
 #include <unistd.h>
@@ -14,7 +14,7 @@ void stop() {
 
 void usd (){
 
-float usd_r = 2.9050 ; 
+float usd_r = 3.2533 ; 
 double byn;
 cout << "Удакладніце колькасць BYN для перакладу ў USD" << endl << "Колькасць BYN: ";
 cin >> byn;
@@ -26,7 +26,7 @@ cin >> byn;
 sleep (2);
 
 //cout << endl << "Конвертация в USD временно отключена." << endl << "Код ошибки: " << getenv("error") << endl << "" << endl;
-cout << endl << "За " << byn << " BYN Вы атрымаеце " << byn / usd_r << " USD" << endl << "Курс заснаваны 22.05.2023" << endl << endl;
+cout << endl << "За " << byn << " BYN Вы атрымаеце " << byn / usd_r << " USD" << endl << "Курс заснаваны 15.09.2023" << endl << endl;
 
 }
 
@@ -41,14 +41,13 @@ double byn;
    cout << endl << "Результат может быть некорректен!" << endl;
   }
 sleep (2);
-cout << getenv("*");
-cout << endl << "Конвертация в CNY временно отключена." << endl << "Код ошибки: " << endl << "" << endl;
+cout << endl << "Конвертация в CNY временно отключена." << endl << "Администратор: S.Nikitko " << endl << "Комментарий: Отключено по тех.причинам "<< endl << "Причина: Отключено по тех.причинам " << "" << endl;
 //cout << endl << "За " << byn << " BYN Вы атрымаеце " << byn / 0.42621 << " CNY" << endl << "Курс заснаваны 07.04.2023" << endl << endl; 
 
 }
 
 void euro (){
-float eur_r = 3.1390 ; 
+float eur_r = 3.4903 ; 
 double byn;
 cout << "Удакладніце колькасць BYN для перакладу ў EUR" << endl << "Колькасць BYN: ";
 cin >> byn;
@@ -60,12 +59,12 @@ cin >> byn;
 sleep (2);
 
 //cout << endl << "Конвертация в EUR временно отключена." << endl << "Код ошибки: " << getenv("error") << endl << "" << endl;
-cout << endl << "За " << byn << " BYN Вы атрымаеце " << byn / eur_r << " EUR" << endl << "Курс заснаваны 22.05.2023" << endl << endl; 
+cout << endl << "За " << byn << " BYN Вы атрымаеце " << byn / eur_r << " EUR" << endl << "Курс заснаваны 15.09.2023" << endl << endl; 
 
 }
 
 void rub (){
-float rub_r = 0.0270 ; 
+float rub_r = 0.0339 ; 
 double byn;
 
 cout << "Удакладніце колькасць BYN для перакладу ў RUB" << endl << "Колькасць BYN: ";
@@ -78,7 +77,7 @@ cin >> byn;
 sleep (2);
 
 //cout << endl << "Конвертация в RUB временно отключена." << endl << "Код ошибки: " << getenv("off") << endl << "" << endl;
-cout << endl << "За " << byn << " BYN Вы атрымаеце " << byn / rub_r << " RUB" << endl << "Курс заснаваны 22.05.2023" << endl << endl ; 
+cout << endl << "За " << byn << " BYN Вы атрымаеце " << byn / rub_r << " RUB" << endl << "Курс заснаваны 15.09.2023" << endl << endl ; 
 
 }
 
@@ -90,6 +89,7 @@ int main() {
   cout << "Здравствуйте, выберіце валюту:" << endl << "usd=u" << endl << "rub=r" << endl << "euro=e" << endl << "cny=c\n";
   cout << "Валюта: ";
   cin >> val1;
+  // cout << "Здравствуйте, система временно отключена.\n";
 
 //    while (val1 == 'u')
 //      {

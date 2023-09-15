@@ -1,16 +1,1 @@
-Version: PUBLIC 2.0
-
-Last update: 22.05.2023 13:53
-
-
-
-
-
-
-
-
-
-
-
-Создано Sanich-code
-Mogilev. Belarus
+__Last update: 15.09.2023 16:40__
